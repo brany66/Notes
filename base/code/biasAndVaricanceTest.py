@@ -25,7 +25,7 @@ overf_ = np.poly1d(overf)
 
 # print(type(prop))
 # print(type(prop_))
-# print(type(overf))
+# print(type(overf))l
 # print(type(overf_))
 
 _ = plt.figure(figsize=(14, 6))
