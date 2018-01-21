@@ -2,20 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e5c3452-a8c2-4023-8d43-916b3ee05f36" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/机器学习-周志华（课后习题答案）/code/.ipynb_checkpoints/ch4.4-checkpoint.ipynb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/机器学习-周志华（课后习题答案）/code/CART_DT.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/机器学习-周志华（课后习题答案）/code/CART_watermelon.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/机器学习-周志华（课后习题答案）/code/ID3_DT.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/机器学习-周志华（课后习题答案）/code/ID3_watermelon.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/机器学习-周志华（课后习题答案）/code/ch4.4.ipynb" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/机器学习-周志华（课后习题答案）/code/decision_tree_ID3.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/机器学习-周志华（课后习题答案）/code/decision_tree_full.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/机器学习-周志华（课后习题答案）/code/decision_tree_post.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/机器学习-周志华（课后习题答案）/code/decision_tree_pre.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/机器学习-周志华（课后习题答案）/data/watermelon_2.csv" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/机器学习-周志华（课后习题答案）/data/watermelon_3.csv" />
-      <change beforePath="$PROJECT_DIR$/.idea/Notes.iml" afterPath="$PROJECT_DIR$/.idea/Notes.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/机器学习-周志华（课后习题答案）/code/ch4.3_ID3_DT.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/机器学习-周志华（课后习题答案）/code/dtreeplot_ID3.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/机器学习-周志华（课后习题答案）/data/watermelon_3.data" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/机器学习-周志华（课后习题答案）/4-第四章：决策树.md" afterPath="$PROJECT_DIR$/机器学习-周志华（课后习题答案）/4-第四章：决策树.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,39 +35,53 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CART_watermelon.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CART_watermelon.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/机器学习-周志华（课后习题答案）/code/CART_watermelon.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
-              <caret line="72" column="29" lean-forward="false" selection-start-line="72" selection-start-column="29" selection-end-line="72" selection-end-column="29" />
+            <state relative-caret-position="1170">
+              <caret line="65" column="26" lean-forward="false" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CART_DT.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/机器学习-周志华（课后习题答案）/code/CART_DT.py">
+      <file leaf-file-name="ch4.3_ID3_DT.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/机器学习-周志华（课后习题答案）/code/ch4.3_ID3_DT.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" column="4" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ID3_DT.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/机器学习-周志华（课后习题答案）/code/ID3_DT.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2286">
-              <caret line="229" column="8" lean-forward="false" selection-start-line="229" selection-start-column="8" selection-end-line="229" selection-end-column="8" />
+            <state relative-caret-position="144">
+              <caret line="222" column="30" lean-forward="true" selection-start-line="222" selection-start-column="30" selection-end-line="222" selection-end-column="30" />
               <folding>
-                <element signature="e#524#703#0" expanded="false" />
-                <element signature="e#893#2332#0" expanded="false" />
-                <element signature="e#4194#4400#0" expanded="false" />
-                <element signature="e#4717#5021#0" expanded="false" />
-                <element signature="e#5418#6801#0" expanded="false" />
-                <element signature="e#7018#7325#0" expanded="false" />
-                <element signature="e#7858#8757#0" expanded="false" />
+                <element signature="e#77#129#0" expanded="true" />
+                <element signature="e#1210#1378#1" expanded="false" />
+                <element signature="e#4523#4605#1" expanded="false" />
+                <element signature="e#4674#7316#0" expanded="false" />
+                <element signature="e#7322#7363#1" expanded="false" />
+                <element signature="e#7411#7630#0" expanded="false" />
+                <element signature="e#7636#7662#1" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="watermelon_3.data" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/机器学习-周志华（课后习题答案）/data/watermelon_3.data">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dtreeplot_ID3.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/机器学习-周志华（课后习题答案）/code/dtreeplot_ID3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="576">
+              <caret line="33" column="19" lean-forward="false" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="19" />
+              <folding>
+                <element signature="e#78#96#0" expanded="true" />
+                <element signature="e#2289#3825#0" expanded="false" />
+                <element signature="e#4004#5862#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -100,10 +106,14 @@
         <option value="$PROJECT_DIR$/base/code/biasAndVaricanceTest.py" />
         <option value="$PROJECT_DIR$/机器学习-周志华（课后习题答案）/code/ID3_DT.py" />
         <option value="$PROJECT_DIR$/机器学习-周志华（课后习题答案）/code/ID3_watermelon.py" />
+        <option value="$PROJECT_DIR$/机器学习-周志华（课后习题答案）/code/dtreeplot_ID3.py" />
+        <option value="$PROJECT_DIR$/机器学习-周志华（课后习题答案）/data/watermelon_3.data" />
+        <option value="$PROJECT_DIR$/机器学习-周志华（课后习题答案）/code/ch3.3_ID3_DT.py" />
+        <option value="$PROJECT_DIR$/机器学习-周志华（课后习题答案）/code/ch4.3_ID3_DT.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="951" />
@@ -145,8 +155,13 @@
               <item name="Notes" type="b2602c69:ProjectViewProjectNode" />
               <item name="Notes" type="462c0819:PsiDirectoryNode" />
               <item name="机器学习-周志华（课后习题答案）" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name=".ipynb_checkpoints" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Notes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Notes" type="462c0819:PsiDirectoryNode" />
+              <item name="机器学习-周志华（课后习题答案）" type="462c0819:PsiDirectoryNode" />
+              <item name="picture" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -173,7 +188,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.CART_watermelon">
+  <component name="RunManager" selected="Python.ch3.3_ID3_DT">
     <configuration name="CART_watermelon" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -228,6 +243,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="ch3.3_ID3_DT" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/机器学习-周志华（课后习题答案）/code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Notes" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/机器学习-周志华（课后习题答案）/code/ch4.3_ID3_DT.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="testEnv" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -246,18 +279,20 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.biasAndVaricanceTest" />
       <item index="1" class="java.lang.String" itemvalue="Python.testEnv" />
       <item index="2" class="java.lang.String" itemvalue="Python.ID3_watermelon" />
       <item index="3" class="java.lang.String" itemvalue="Python.CART_watermelon" />
+      <item index="4" class="java.lang.String" itemvalue="Python.ch3.3_ID3_DT" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.CART_watermelon" />
-        <item index="1" class="java.lang.String" itemvalue="Python.ID3_watermelon" />
-        <item index="2" class="java.lang.String" itemvalue="Python.biasAndVaricanceTest" />
-        <item index="3" class="java.lang.String" itemvalue="Python.testEnv" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.ch3.3_ID3_DT" />
+        <item index="1" class="java.lang.String" itemvalue="Python.CART_watermelon" />
+        <item index="2" class="java.lang.String" itemvalue="Python.ID3_watermelon" />
+        <item index="3" class="java.lang.String" itemvalue="Python.biasAndVaricanceTest" />
+        <item index="4" class="java.lang.String" itemvalue="Python.testEnv" />
       </list>
     </recent_temporary>
   </component>
@@ -321,18 +356,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="951" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="951" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24894515" sideWeight="0.49652433" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24894515" sideWeight="0.49652433" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.5031746" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3259346" sideWeight="0.4968254" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32827103" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827103" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827103" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3259346" sideWeight="0.4968254" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39836448" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24907847" sideWeight="0.50347567" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39836448" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -349,17 +385,17 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921174" sideWeight="0.5031746" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827103" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287827" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3259346" sideWeight="0.4968254" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827103" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827103" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24894515" sideWeight="0.49652433" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943925" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24907847" sideWeight="0.50347567" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39836448" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24907847" sideWeight="0.50347567" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -394,12 +430,178 @@
           <line>142</line>
           <option name="timeStamp" value="35" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/机器学习-周志华（课后习题答案）/code/ch4.3_ID3_DT.py</url>
+          <line>56</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/机器学习-周志华（课后习题答案）/code/ch4.3_ID3_DT.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="36" />
+      <option name="time" value="38" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/机器学习-周志华（课后习题答案）/code/CART_watermelon.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="65" column="26" lean-forward="false" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/机器学习-周志华（课后习题答案）/code/ch4.3_ID3_DT.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2502">
+          <caret line="215" column="0" lean-forward="true" selection-start-line="215" selection-start-column="0" selection-end-line="215" selection-end-column="0" />
+          <folding>
+            <element signature="e#77#129#0" expanded="true" />
+            <element signature="e#1210#1378#1" expanded="false" />
+            <element signature="e#4523#4605#1" expanded="false" />
+            <element signature="e#4674#7316#0" expanded="false" />
+            <element signature="e#7322#7363#1" expanded="false" />
+            <element signature="e#7411#7630#0" expanded="false" />
+            <element signature="e#7636#7662#1" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/机器学习-周志华（课后习题答案）/data/watermelon_3.data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/机器学习-周志华（课后习题答案）/code/dtreeplot_ID3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="33" column="19" lean-forward="false" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="19" />
+          <folding>
+            <element signature="e#78#96#0" expanded="true" />
+            <element signature="e#2289#3825#0" expanded="false" />
+            <element signature="e#4004#5862#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/机器学习-周志华（课后习题答案）/code/ID3_watermelon.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#114#1" expanded="false" />
+            <element signature="e#471#510#0" expanded="false" />
+            <element signature="e#1549#2112#1" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/机器学习-周志华（课后习题答案）/code/CART_watermelon.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="65" column="26" lean-forward="false" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/机器学习-周志华（课后习题答案）/code/ch4.3_ID3_DT.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2808">
+          <caret line="232" column="52" lean-forward="false" selection-start-line="232" selection-start-column="52" selection-end-line="232" selection-end-column="52" />
+          <folding>
+            <element signature="e#77#129#0" expanded="true" />
+            <element signature="e#1210#1378#1" expanded="false" />
+            <element signature="e#4523#4605#1" expanded="false" />
+            <element signature="e#4674#7316#0" expanded="false" />
+            <element signature="e#7322#7363#1" expanded="false" />
+            <element signature="e#7411#7630#0" expanded="false" />
+            <element signature="e#7636#7662#1" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/机器学习-周志华（课后习题答案）/data/watermelon_3.data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/机器学习-周志华（课后习题答案）/code/dtreeplot_ID3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="33" column="19" lean-forward="false" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="19" />
+          <folding>
+            <element signature="e#78#96#0" expanded="true" />
+            <element signature="e#2289#3825#0" expanded="false" />
+            <element signature="e#4004#5862#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/机器学习-周志华（课后习题答案）/code/ID3_watermelon.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#114#1" expanded="false" />
+            <element signature="e#471#510#0" expanded="false" />
+            <element signature="e#1549#2112#1" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/机器学习-周志华（课后习题答案）/code/CART_watermelon.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="65" column="26" lean-forward="false" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/机器学习-周志华（课后习题答案）/code/ch4.3_ID3_DT.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2808">
+          <caret line="232" column="52" lean-forward="false" selection-start-line="232" selection-start-column="52" selection-end-line="232" selection-end-column="52" />
+          <folding>
+            <element signature="e#77#129#0" expanded="true" />
+            <element signature="e#1210#1378#1" expanded="false" />
+            <element signature="e#4523#4605#1" expanded="false" />
+            <element signature="e#4674#7316#0" expanded="false" />
+            <element signature="e#7322#7363#1" expanded="false" />
+            <element signature="e#7411#7630#0" expanded="false" />
+            <element signature="e#7636#7662#1" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/机器学习-周志华（课后习题答案）/data/watermelon_3.data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/机器学习-周志华（课后习题答案）/code/dtreeplot_ID3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="33" column="19" lean-forward="false" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="19" />
+          <folding>
+            <element signature="e#78#96#0" expanded="true" />
+            <element signature="e#2289#3825#0" expanded="false" />
+            <element signature="e#4004#5862#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/机器学习-周志华（课后习题答案）/code/ID3_watermelon.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1242">
@@ -616,7 +818,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="3080" column="0" lean-forward="false" selection-start-line="3080" selection-start-column="0" selection-end-line="3080" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -646,8 +847,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/机器学习-周志华（课后习题答案）/code/CART_watermelon.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="72" column="29" lean-forward="false" selection-start-line="72" selection-start-column="29" selection-end-line="72" selection-end-column="29" />
+        <state relative-caret-position="1170">
+          <caret line="65" column="26" lean-forward="false" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -656,7 +857,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="23" column="4" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -672,6 +872,56 @@
             <element signature="e#5418#6801#0" expanded="false" />
             <element signature="e#7018#7325#0" expanded="false" />
             <element signature="e#7858#8757#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="320" column="0" lean-forward="false" selection-start-line="320" selection-start-column="0" selection-end-line="320" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/机器学习-周志华（课后习题答案）/code/dtreeplot_ID3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="33" column="19" lean-forward="false" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="19" />
+          <folding>
+            <element signature="e#78#96#0" expanded="true" />
+            <element signature="e#2289#3825#0" expanded="false" />
+            <element signature="e#4004#5862#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/机器学习-周志华（课后习题答案）/data/watermelon_3.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/机器学习-周志华（课后习题答案）/data/watermelon_3.data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/机器学习-周志华（课后习题答案）/code/ch4.3_ID3_DT.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="222" column="30" lean-forward="true" selection-start-line="222" selection-start-column="30" selection-end-line="222" selection-end-column="30" />
+          <folding>
+            <element signature="e#77#129#0" expanded="true" />
+            <element signature="e#1210#1378#1" expanded="false" />
+            <element signature="e#4523#4605#1" expanded="false" />
+            <element signature="e#4674#7316#0" expanded="false" />
+            <element signature="e#7322#7363#1" expanded="false" />
+            <element signature="e#7411#7630#0" expanded="false" />
+            <element signature="e#7636#7662#1" expanded="false" />
           </folding>
         </state>
       </provider>
