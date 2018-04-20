@@ -1,0 +1,208 @@
+################################################
+### CONFIGURATION FILE FOR AN SMT EXPERIMENT ###
+################################################
+
+
+[GENERAL]
+
+home-dir = /home/wmt
+
+working-dir = $home-dir/working/experiments
+moses-src-dir = $home-dir/moses
+moses-script-dir = $moses-src-dir/scripts
+moses-bin-dir = $moses-src-dir/bin
+external-bin-dir = $moses-src-dir/tools
+data-dir = $home-dir/data
+train-dir = $data-dir/training
+dev-dir = $data-dir/dev
+irstlm-dir = $home-dir/irstlm/bin
+
+
+ttable-binarizer = $moses-bin-dir/processPhraseTableMin
+decoder = $moses-bin-dir/moses
+
+input-tokenizer = "$moses-script-dir/tokenizer/tokenizer.perl -l $input-extension"
+output-tokenizer = "$moses-script-dir/tokenizer/tokenizer.perl -l $output-extension"
+input-truecaser = $moses-script-dir/recaser/truecase.perl
+output-truecaser = $moses-script-dir/recaser/truecase.perl
+detruecaser = $moses-script-dir/recaser/detruecase.perl
+
+
+input-extension = fr
+output-extension = en
+pair-extension = fr-en
+
+#################################################################
+# PARALLEL CORPUS PREPARATION: 
+# create a tokenized, sentence-aligned corpus, ready for training
+
+[CORPUS]
+
+max-sentence-length = 80
+
+[CORPUS:project-syndicate] 
+raw-stem = $train-dir/news-commentary-v8.$pair-extension
+
+[LM]
+
+### tool to be used for language model training
+# for instance: ngram-count (SRILM), train-lm-on-disk.perl (Edinburgh) 
+# 
+lm-training = "$moses-script-dir/generic/trainlm-irst2.perl -cores 2 -irst-dir $irstlm-dir -temp-dir $working-dir/tmp"
+settings = "-s msb -p 0"
+
+order = 3
+type = 8
+lm-binarizer = $moses-bin-dir/build_binary
+
+[LM:project-syndicate]
+raw-corpus = $train-dir/news-commentary-v8.$pair-extension.$output-extension
+
+
+#################################################################
+# TRANSLATION MODEL TRAINING
+
+[TRAINING]
+
+### training script to be used: either a legacy script or 
+# current moses training script (default) 
+# 
+script = $moses-script-dir/training/train-model.perl
+
+### symmetrization method to obtain word alignments from giza output
+# (commonly used: grow-diag-final-and)
+#
+#alignment-symmetrization-method = berkeley
+alignment-symmetrization-method = grow-diag-final-and
+
+### lexicalized reordering: specify orientation type
+# (default: only distance-based reordering model)
+#
+lexicalized-reordering = msd-bidirectional-fe
+
+### if word alignment (giza symmetrization) should be skipped,
+# point to word alignment files
+#
+#word-alignment = 
+
+### if phrase extraction should be skipped,
+# point to stem for extract files
+#
+#extracted-phrases = 
+
+### if phrase table training should be skipped,
+# point to phrase translation table
+#
+#phrase-translation-table = 
+
+### if reordering table training should be skipped,
+# point to reordering table
+#
+#reordering-table = 
+
+### if training should be skipped, 
+# point to a configuration file that contains
+# pointers to all relevant model files
+#
+#config = 
+
+### TUNING: finding good weights for model components
+
+[TUNING]
+
+### instead of tuning with this setting, old weights may be recycled
+
+### tuning script to be used
+#
+tuning-script = $moses-script-dir/training/mert-moses.pl
+tuning-settings = "-mertdir $moses-bin-dir "
+
+### specify the corpus used for tuning 
+# it should contain 100s if not 1000s of sentences
+#
+raw-input = $dev-dir/news-test2008.$input-extension
+ 
+raw-reference = $dev-dir/news-test2008.$output-extension
+
+### size of n-best list used (typically 100)
+#
+nbest = 100
+
+### ranges for weights for random initialization
+# if not specified, the tuning script will use generic ranges
+# it is not clear, if this matters
+#
+# lambda = 
+
+### additional flags for the decoder
+#
+decoder-settings = "-threads 4"
+
+### if tuning should be skipped, specify this here
+# and also point to a configuration file that contains
+# pointers to all relevant model files
+#
+#config = 
+
+
+#######################################################
+## TRUECASER: train model to truecase corpora and input
+
+[TRUECASER]
+
+### script to train truecaser models
+#
+trainer = $moses-script-dir/recaser/train-truecaser.perl
+
+### training data
+# raw input needs to be still tokenized,
+# also also tokenized input may be specified
+#
+raw-stem = CORPUS:raw-stem
+
+### trained model
+#
+#truecase-model = 
+
+
+##################################
+## EVALUATION: score system output
+
+[EVALUATION]
+
+### prepare system output for scoring 
+# this may include detokenization and wrapping output in sgm 
+# (needed for nist-bleu, ter, meteor)
+#
+detokenizer = "$moses-script-dir/tokenizer/detokenizer.perl -l $output-extension"
+
+decoder-settings = "-threads 4"
+
+### should output be scored case-sensitive (default: no)?
+#
+# case-sensitive = yes
+
+### BLEU
+#
+
+multi-bleu = "$moses-script-dir/generic/multi-bleu.perl -lc"
+# ibm-bleu =
+
+### TER: translation error rate (BBN metric) based on edit distance
+#
+# ter = $edinburgh-script-dir/tercom_v6a.pl
+
+### METEOR: gives credit to stem / worknet synonym matches
+#
+# meteor = 
+
+[EVALUATION:newstest2010]
+raw-input = $dev-dir/newstest2011.$input-extension
+raw-reference = $dev-dir/newstest2011.$output-extension
+
+
+[REPORTING]
+
+### what to do with result (default: store in file evaluation/report)
+# 
+# email = pkoehn@inf.ed.ac.uk
